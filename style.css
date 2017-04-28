@@ -1,0 +1,102 @@
+﻿body {
+    padding: 10px;
+}
+
+body, a {
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+.box {
+    display: block;
+    margin: 50px 0 0 5%;
+}
+.divider {
+    display: none;
+}
+.clear {
+    clear: both;
+}
+
+.bgm {
+    display: block;
+    margin: 20px 0 0 5%;
+}
+.bgm img {
+    height: 100px;
+}
+
+h1, h2 {
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+h1 {
+    margin-top: -5px;
+}
+
+a {
+    font-style: italic;
+    text-decoration: none;
+}
+a:hover {
+    color: #00838f;
+}
+
+ul, ol {
+    display: inline-block;
+    float: left;
+    list-style: decimal-leading-zero;
+    padding: 0;
+}
+
+ol {
+    margin: 50px 0;
+}
+
+ol:last-of-type {
+    margin-left: 50px;
+}
+
+li {
+    padding-bottom: 5px;
+}
+
+ul, ul li {
+    width: 100%;
+}
+
+@media screen and (min-width: 590px) {
+    .divider {
+        display: inline;
+    }
+    ol:last-of-type {
+        margin-left: 250px;
+    }
+}
+
+@media screen and (min-width: 676px) {
+    .box {
+        margin: 100px 0 0 10%;
+    }
+    .bgm {
+        margin: 50px 0 0 10%;
+    }
+}
+
+@media screen and (min-width: 1070px) {
+    .box {
+        display: inline-block;
+        float: left;
+        margin: 100px 0 0 150px;
+    }
+    .bgm {
+        display: inline-block;
+        float: left;
+        margin: 100px 0 0 100px;
+    }
+    .bgm img {
+        height: 175px;
+    }
+}
